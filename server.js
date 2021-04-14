@@ -41,6 +41,7 @@ function sendCurrentUsers(socket) { // loading current users
 
 }
 
+
 // io.on listens for events
 io.on("connection", function(socket) {
   console.log("User is connected");
